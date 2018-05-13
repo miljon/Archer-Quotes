@@ -1,0 +1,36 @@
+body, html {
+    height: 100%;
+}
+
+#main {
+    /* The image used */
+    background-image: url("/resources/wallpaper.jpg");
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.quote-height{
+    height: 70% !important;
+}
+
+.button-height{
+    height: 10% !important;
+}
+
+.quote{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 48px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
